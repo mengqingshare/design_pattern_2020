@@ -7,5 +7,10 @@ java design pattern
 
 这本书上的案例代码
 
+> 快速模拟tree 命令
+
+```shell 
+find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
+```
 
 
